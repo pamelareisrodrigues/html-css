@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+
+    <p> tente abrir em varios sites diferentes ou aumente e diminue o tamanho do teu navegador</p>
+
+    <picture>
+     <source media="(max-width:750px )" srcset="imagem_300.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagem_700.png" type="image/png">
+        <img src="imagem_1000.png" alt="imagem700px">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midias/soulicios-daylla.mp3" controls autoplay></audio>
+
+
+<h1>Adicionando vídeos ao teu site</h1>
+<p>No próprio servidor</p>
+<video src="midias/pexels-pavel-danilyuk-7318864 (1).mp4" width="300" controls poster="midias/Sem título.png" autoplay loop ></video>
+
+<video src="midias/Pexels-Pavel-Danilyuk-7318864 (1).webm" width="300" controls ></video>
+
+<h1>Inserindo vídeos do Youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A6PWu3EH7Xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
