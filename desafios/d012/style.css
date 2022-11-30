@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: Georgia, 'Times New Roman', Times, serif;
+    --fonte3: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+    min-height: 100hv;
+    background-color: chartreuse;
+    font-family: var(--fonte1);
+}
+
+header{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte2);
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: beige;
+    color:blue;
+}
+
+section.image{
+    background-color: rgb(57, 0, 100);
+    color: rgb(20, 3, 147);
+
+}
+
+section.image > p{
+    width: 400px;
+    background-color: rgb(8, 250, 12);
+}
+
+footer{
+    background-color: deeppink;
+    text-align: center;
+    color: yellow ;
+    padding: 10px;
+}
