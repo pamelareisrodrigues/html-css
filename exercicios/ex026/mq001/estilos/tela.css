@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: rgb(96, 185, 185);
+}
+
+menu li{
+    background-color: rgb(3, 73, 73);
+    display: inline-block;
+    padding: 10px;
+    color: wheat;
+}
+
+article{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
